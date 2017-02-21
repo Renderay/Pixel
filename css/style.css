@@ -3,7 +3,7 @@ font-family: PT Sans;
 font-weight: 14px;
 межстрочное- 22пк
 подколючить гугль шрифт
-
+кроссбраузерность
 }
 
 header {
@@ -14,8 +14,13 @@ header {
 .header-block {
 
 }
+
 .header-logo {
 
+}
+.header-logo img{
+width: ;
+height: ;
 }
 .company-name {
 
