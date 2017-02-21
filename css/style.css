@@ -1,0 +1,73 @@
+@font-face {
+font-family: PT Sans;
+font-weight: 14px;
+межстрочное- 22пк
+подколючить гугль шрифт
+
+}
+
+header {
+
+}
+
+
+.header-block {
+
+}
+.header-logo {
+
+}
+.company-name {
+
+}
+.phone {
+
+}
+
+
+#menu {
+
+}
+
+#slider {
+width: ;
+height: ;
+background-image: ;
+}
+
+
+
+#content {
+
+}
+
+
+footer {
+  width: 1000px;
+  	margin: -100px auto 0;
+  	height: 100px;
+  	position: relative;
+  	background-color: rgb(51,51,204);
+
+}
+
+.center ul {
+
+}
+
+
+.center li {
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  display:inline-block;
+}
+
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  display: block;
+}
