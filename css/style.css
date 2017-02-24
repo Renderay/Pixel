@@ -1,86 +1,140 @@
-@font-face {
-font-family: PT Sans;
-font-weight: 14px;
-межстрочное- 22пк
-подколючить гугль шрифт
-кроссбраузерность
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+width:100%;
+
+font-family: 'PT Sans', sans-serif;
+font-size: 14px;
 }
+
+
 
 header {
 width:100%;
 height:200px;
-border: solid red 1px;
+background-color: rgb(221,219,221);
+text-align: center;
 }
 
+.empty {
+  height:100px;
+  background-color:red;
+}
 
 .header-block {
-width:300px;
+position:relative;
+width:100%;
 height:200px;
-border: solid 1px;
+
 }
 
 .header-logo {
+position:absolute;
 
 }
 
-.header-logo img{
+.header-logo img {
+position: absolute;
+top:50px;
+left:220px;
 width:100px;
 height:100px;
 }
 
 
 .company-name {
-  margin-left: 100px;
-  margin-top: -100px;
-  height:100px;
-border: solid 1px;
+position: absolute;
+top:50px;
+left:330px;
+width:200px;
+height:100px;
+text-align: left;
 }
 
 .phone {
-margin-left: 500px;
-margin-top: -200px;
-border: solid 1px;
+width: 150px;
+position:absolute;
+left: 800px;
+top:50px;
+
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 #menu {
+position:relative;
 width:100%;
 height: 50px;
-border: solid 1px;
+background-color:#777777;
+text-align:center;
+
 }
 
 
 #menu li {
-display: inline-block;
+display:inline-block;
+border-left:1px solid #bbb;
 padding-right: 20px;
+padding-left: 20px;
+line-height: 50px;
+color: white;
+
 }
+#menu li:first-child {
+border:none;
+}
+
 
 
 #slider {
-width:100% ;
-height:200px;
-background-image: ;
+width:100%;
+height:300px;
 border: solid 1px;
+text-align: center;
 }
 
+#slider img {
+width:800px;
+height:300px;
+}
 
 
 #content {
 width: 100%;
+position:relative;
+text-align:center;
 }
 
 
 .sidebar {
+  position: absolute;
+left:200px;
+top:0px;
 width:200px;
 height:550px;
 border: solid 1px;
+background-color:#777777;
+
 }
 
 .basic-test {
+position: absolute;
+top:0px;
+left: 420px;
 width: 600px;
 height:550px;
-margin-top: -550px;
-margin-left: 210px;
 border: solid 1px;
 
 }
@@ -90,14 +144,25 @@ height:20px;
 border: solid 1px;
 }
 
-
-.container {
-display: inline-block;
-width: 100%;
-height: 200px;
-border: solid 1px;
-
+footer {
+    position: relative;
+    top:500px;
+    left:200px;
+background-color: blue;
+width:100%
 }
+
+.page-wrapper {
+
+
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.page-buffer {
+    height: 50px;
+}
+
 
 .left {
 display: inline-block;
@@ -117,6 +182,9 @@ display: inline-block;
 border: solid 1px;
 }
 
+
+
+
 ul {
   list-style: none;
   margin: 0;
@@ -125,6 +193,28 @@ ul {
 }
 
 a {
-  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  text-decoration: none;
   display: block;
+  line-height: 22px;
+  font-weight: 14px;
+}
+
+h1 {
+line-height: 22px;
+font-weight: 14px;
+}
+
+
+p {
+line-height: 22px;
+font-weight: 14px;
+}
+
+
+
+
+@font-face {
+font-family: 'PT Sans', sans-serif;
+src: url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic');
+font-weight: 14px;
 }
